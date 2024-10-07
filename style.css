@@ -1,0 +1,74 @@
+h2{
+    text-align: center;
+}
+h2 a
+{
+    color: red;
+    text-decoration: none;
+
+}
+h2 a:hover
+{
+    text-decoration: underline;
+} 
+table{
+    margin-left: 250px;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+}
+table,tr,td{
+    border: 2px solid rgb(236, 236, 236);
+    border-collapse: collapse;
+}
+/* class selector (.)*/
+.c1
+{
+    background-color: rgb(85, 85, 237)
+}
+.c2
+{
+    background-color: rgb(241, 241, 43);
+}
+.c3
+{
+    background-color: rgb(107, 207, 8);
+}
+/* id selector # */
+#c4
+{
+     background-color: rgb(118, 4, 118);
+}
+#c5
+{
+    background-color: orangered;
+    text-align: center;
+    
+}
+#c6
+{
+    background-color: turquoise;
+    text-align: center;
+} 
+/*  -3 */
+.c7
+{
+    background-color: brown;
+}
+.c8
+{
+    background-color: crimson;
+}
+.c9
+{
+   background-color: darkred ;
+}
+.c1,.c2,.c3{
+    text-align: center;
+}
+#c4,.c5,.c6{
+    text-align: center;
+}
+*.c7,.c8,.c9{
+    text-align: center;
+}
